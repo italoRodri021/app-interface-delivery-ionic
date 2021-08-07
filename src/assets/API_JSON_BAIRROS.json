@@ -1,0 +1,543 @@
+{
+  "bairros": [
+    {
+      "id": 1,
+      "cep": "",
+      "idCity": 1,
+      "zone": "sul",
+      "name": "Água Fria"
+    },
+    {
+      "id": 2,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Aeroclube"
+    },
+    {
+      "id": 3,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Altiplano"
+    },
+    {
+      "id": 4,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Alto do Céu"
+    },
+    {
+      "id": 5,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Alto do Mateus"
+    },
+    {
+      "id": 6,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Anatólia"
+    },
+    {
+      "id": 7,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Bairro das Indústrias"
+    },
+    {
+      "id": 8,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Bairro dos Estados"
+    },
+    {
+      "id": 9,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Bairro dos Ipês"
+    },
+    {
+      "id": 10,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Bairro dos Novais"
+    },
+    {
+      "id": 11,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Bancários"
+    },
+    {
+      "id": 12,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Barra de Gramame"
+    },
+    {
+      "id": 13,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Bessa"
+    },
+    {
+      "id": 14,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Jardim Brisamar"
+    },
+    {
+      "id": 16,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Cabo Branco"
+    },
+    {
+      "id": 17,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Castelo Branco"
+    },
+    {
+      "id": 18,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Centro"
+    },
+    {
+      "id": 19,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Cidade dos Colibris"
+    },
+    {
+      "id": 20,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Costa do Sol"
+    },
+    {
+      "id": 21,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Costa e Silva"
+    },
+    {
+      "id": 22,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Cristo Redentor"
+    },
+    {
+      "id": 23,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Cruz das Armas"
+    },
+    {
+      "id": 24,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Cuiá"
+    },
+    {
+      "id": 25,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Distrito Industrial"
+    },
+    {
+      "id": 26,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Ernesto Geisel"
+    },
+    {
+      "id": 27,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Ernâni Sátiro"
+    },
+    {
+      "id": 28,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Expedicionários"
+    },
+    {
+      "id": 29,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Funcionários II"
+    },
+    {
+      "id": 30,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Funcionários III"
+    },
+    {
+      "id": 31,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Gramame"
+    },
+    {
+      "id": 32,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Grotão"
+    },
+    {
+      "id": 33,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Ilha do Bispo"
+    },
+    {
+      "id": 34,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Jaguaribe"
+    },
+    {
+      "id": 35,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Jardim 13 de Maio"
+    },
+    {
+      "id": 36,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Jardim Cidade Universitária"
+    },
+    {
+      "id": 37,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Jardim Esther"
+    },
+    {
+      "id": 38,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Jardim Luna"
+    },
+    {
+      "id": 39,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Jardim Mangueira"
+    },
+    {
+      "id": 40,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Jardim Oceania"
+    },
+    {
+      "id": 41,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Jardim Planalto"
+    },
+    {
+      "id": 42,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Jardim São Paulo"
+    },
+    {
+      "id": 43,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Jardim Veneza"
+    },
+    {
+      "id": 44,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "José Américo"
+    },
+    {
+      "id": 45,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "João Agripino"
+    },
+    {
+      "id": 46,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "João Paulo II"
+    },
+    {
+      "id": 47,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Manaíra"
+    },
+    {
+      "id": 48,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Mandacaru"
+    },
+    {
+      "id": 49,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Mangabeira"
+    },
+    {
+      "id": 50,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Mata do Buraquinho"
+    },
+    {
+      "id": 51,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Miramar"
+    },
+    {
+      "id": 52,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Mumbaba"
+    },
+    {
+      "id": 53,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Mussuré"
+    },
+    {
+      "id": 54,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Muçumagro"
+    },
+    {
+      "id": 55,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Oitizeiro"
+    },
+    {
+      "id": 56,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Padre Zé"
+    },
+    {
+      "id": 57,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Paratibe"
+    },
+    {
+      "id": 58,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Pedro Gondim"
+    },
+    {
+      "id": 59,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Penha"
+    },
+    {
+      "id": 60,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Planalto da Boa Esperança"
+    },
+    {
+      "id": 61,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Ponta dos Seixas"
+    },
+    {
+      "id": 62,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Portal do Sol"
+    },
+    {
+      "id": 63,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Quadramares"
+    },
+    {
+      "id": 64,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Rangel"
+    },
+    {
+      "id": 65,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Róger"
+    },
+    {
+      "id": 66,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "São José"
+    },
+    {
+      "id": 67,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Tambaú"
+    },
+    {
+      "id": 68,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Leste",
+      "name": "Tambauzinho"
+    },
+    {
+      "id": 69,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Tambiá"
+    },
+    {
+      "id": 70,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Torre"
+    },
+    {
+      "id": 71,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Trincheiras"
+    },
+    {
+      "id": 72,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Sul",
+      "name": "Valentina Figueiredo"
+    },
+    {
+      "id": 73,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Norte",
+      "name": "Varadouro"
+    },
+    {
+      "id": 74,
+      "cep": "",
+      "idCity": 1,
+      "zone": "Oeste",
+      "name": "Varjão"
+    }
+  ],
+  "cidades": [
+    {
+      "id": 1,
+      "idState": 1,
+      "name": "João Pessoa"
+    },
+    {
+      "id": 2,
+      "idState": 1,
+      "name": "Bayeux"
+    },
+    {
+      "id": 3,
+      "idState": 1,
+      "name": "Cabedelo"
+    },
+    {
+      "id": 4,
+      "idState": 1,
+      "name": "Santa Rita"
+    }
+  ],
+  "estados": [
+    {
+      "id": 1,
+      "name": "Paraíba"
+    }
+  ]
+}

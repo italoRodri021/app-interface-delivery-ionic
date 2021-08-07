@@ -1,0 +1,7 @@
+{
+  "name": "APP_INTERFACE_DELIVERY",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
