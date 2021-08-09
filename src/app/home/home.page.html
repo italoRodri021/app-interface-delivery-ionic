@@ -1,20 +1,140 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content
+  scrollEvents="true"
+  [appHideHeader]="hideHeader"
+  (ionScroll)="onScroll($event)"
+>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content> </ion-refresher-content>
+  </ion-refresher>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-row class="info-row" #hideHeader>
+    <ion-col size="2" class="ion-padding-start">
+      <ion-icon color="success" name="bicycle"></ion-icon>
+      <!--Aqui deveria ser um img-->
+    </ion-col>
+    <ion-col size="8">
+      <ion-text color="dark">
+        <span>Valentina</span><br />
+        <b>Selecionar local</b>
+        <ion-icon name="chevron-down-outline" color="primary"></ion-icon>
+      </ion-text>
+    </ion-col>
+    <ion-col size="2">
+      <ion-button fill="clear">
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-item class="stick-row" lines="none">
+    <ion-label class="ion-no-padding-start">
+      <ion-text
+        class="no-padding-start"
+        color="medium"
+        [ngClass]="{'location-visible': showLocationDetail, 'location-hidden': !showLocationDetail }"
+      >
+        <p>Local</p>
+      </ion-text>
+      <ion-searchbar placeholder="Buscar restaurantes"></ion-searchbar>
+    </ion-label>
+    <ion-button fill="clear" shape="round">
+      <ion-icon name="options-outline" slot="icon-only"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+  <ion-slides [options]="catSlideOpts">
+    <ion-slide *ngFor="let item of listCategories">
+      <img [src]="item.img" />
+    </ion-slide>
+  </ion-slides>
+
+  <ion-slides [options]="highLightSlideOpts">
+    <ion-slide *ngFor="let item of listHighlights">
+      <img [src]="item.img" />
+    </ion-slide>
+  </ion-slides>
+
+  <ion-text color="dark"><b style="padding-left: 10px">Promoções</b></ion-text>
+
+  <ion-slides [options]="featureSlideOpts">
+    <ion-slide
+      (click)="openDetailProduct(item)"
+      *ngFor="let item of listFeatured"
+      class="featured-slide"
+    >
+      <img [src]="item.img" />
+      <div class="info">
+        <ion-text color="dark"><b>{{ item.name }}</b></ion-text>
+        <span>
+          <ion-icon name="star" color="secondary"></ion-icon>
+          <ion-text color="secondary">{{ item.rating }}</ion-text>
+        </span>
+        <span>
+          <ion-icon name="location-outline"></ion-icon>{{ item.distance }}
+        </span>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <!--Forcando scroll add mais items-->
+
+  <ion-slides [options]="featureSlideOpts">
+    <ion-slide
+      *ngFor="let item of listFeatured"
+      routerLink="/details"
+      class="featured-slide"
+    >
+      <img [src]="item.img" />
+      <div class="info">
+        <ion-text color="dark"><b>{{ item.name }}</b></ion-text>
+        <span>
+          <ion-icon name="star" color="secondary"></ion-icon>
+          <ion-text color="secondary">{{ item.rating }}</ion-text>
+        </span>
+        <span>
+          <ion-icon name="location-outline"></ion-icon>{{ item.distance }}
+        </span>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-slides [options]="featureSlideOpts">
+    <ion-slide
+      *ngFor="let item of listFeatured"
+      routerLink="/details"
+      class="featured-slide"
+    >
+      <img [src]="item.img" />
+      <div class="info">
+        <ion-text color="dark"><b>{{ item.name }}</b></ion-text>
+        <span>
+          <ion-icon name="star" color="secondary"></ion-icon>
+          <ion-text color="secondary">{{ item.rating }}</ion-text>
+        </span>
+        <span>
+          <ion-icon name="location-outline"></ion-icon>{{ item.distance }}
+        </span>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-slides [options]="featureSlideOpts">
+    <ion-slide
+      *ngFor="let item of listFeatured"
+      routerLink="/details"
+      class="featured-slide"
+    >
+      <img [src]="item.img" />
+      <div class="info">
+        <ion-text color="dark"><b>{{ item.name }}</b></ion-text>
+        <span>
+          <ion-icon name="star" color="secondary"></ion-icon>
+          <ion-text color="secondary">{{ item.rating }}</ion-text>
+        </span>
+        <span>
+          <ion-icon name="location-outline"></ion-icon>{{ item.distance }}
+        </span>
+      </div>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
